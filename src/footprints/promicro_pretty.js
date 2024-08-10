@@ -27,7 +27,7 @@ module.exports = {
     C6: {type: 'net', value: 'C6'},
     D7: {type: 'net', value: 'D7'},
     E6: {type: 'net', value: 'E6'},
-    B5: {type: 'net', value: 'B5'},
+    B4: {type: 'net', value: 'B4'},
     B5: {type: 'net', value: 'B5'}
   },
   body: p => {
@@ -414,7 +414,7 @@ module.exports = {
           (xy 0.6 -0.4) (xy -0.6 -0.4) (xy -0.6 -0.2) (xy 0 0.4) (xy 0.6 -0.2)
   ) (width 0))
       ))
-    (pad 14 smd custom (at 11.43 4.826 ${p.rot + 180}) (size 1.2 0.5) (layers F.Cu F.Mask) ${p.B5.str}
+    (pad 14 smd custom (at 11.43 4.826 ${p.rot + 180}) (size 1.2 0.5) (layers F.Cu F.Mask) ${p.B4.str}
       (clearance 0.1) (zone_connect 0)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1157,7 +1157,7 @@ module.exports = {
           (xy 0.6 -0.4) (xy -0.6 -0.4) (xy -0.6 -0.2) (xy 0 0.4) (xy 0.6 -0.2)
   ) (width 0))
       ))
-    (pad 14 smd custom (at 11.43 -4.826 ${p.rot}) (size 1.2 0.5) (layers B.Cu B.Mask) ${p.B5.str}
+    (pad 14 smd custom (at 11.43 -4.826 ${p.rot}) (size 1.2 0.5) (layers B.Cu B.Mask) ${p.B4.str}
       (clearance 0.1) (zone_connect 0)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -1531,9 +1531,9 @@ module.exports = {
         (gr_line (start 0.762 -0.762) (end 0.762 -3.302) (width 0.25))
         (gr_line (start 0.762 -3.302) (end 0 -4.064) (width 0.25))
       ))
-    (pad 14 thru_hole circle (at 11.43 0.762 ${p.rot + 180}) (size 0.8 0.8) (drill 0.4) (layers *.Cu) ${p.B5.str})
+    (pad 14 thru_hole circle (at 11.43 0.762 ${p.rot + 180}) (size 0.8 0.8) (drill 0.4) (layers *.Cu) ${p.B4.str})
     (pad 11 thru_hole circle (at 11.43 -0.762 ${p.rot + 180}) (size 0.8 0.8) (drill 0.4) (layers *.Cu) ${p.B2.str})
-    (pad 14 smd custom (at 11.43 0.762 ${p.rot + 180}) (size 0.25 0.25) (layers B.Cu) ${p.B5.str}
+    (pad 14 smd custom (at 11.43 0.762 ${p.rot + 180}) (size 0.25 0.25) (layers B.Cu) ${p.B4.str}
       (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
@@ -1557,7 +1557,7 @@ module.exports = {
         (gr_line (start 0.766 -0.766) (end 0.766 -3.298) (width 0.25))
         (gr_line (start 0.766 -3.298) (end 0 -4.064) (width 0.25))
       ))
-    (pad 14 smd custom (at 11.43 0.762 ${p.rot + 180}) (size 0.25 0.25) (layers F.Cu) ${p.B5.str}
+    (pad 14 smd custom (at 11.43 0.762 ${p.rot + 180}) (size 0.25 0.25) (layers F.Cu) ${p.B4.str}
       (zone_connect 0)
       (options (clearance outline) (anchor circle))
       (primitives
